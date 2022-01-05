@@ -31,9 +31,9 @@
  
     3.3 Create a variable called roundResult that stores the result of playRound and variables playerScore and computerScore initialized to zero.
    
-    3.4 Create a while loop with an if statement that only exits when playRound doesn't return a tie.
+    3.4 Create a do while loop with an else statement (placed at the end of if else statement in next step) that only exits when playRound doesn't return a tie.
     
-    3.5 Create a ternary operator with the condition being if roundResult is equal to the player winning i.e. if (roundResult.substr(0,6) === "Player"). If true, 
-        increment variable playerScore by one. If false, increment variable computerScore by one.
+    3.5 Create a if else statement with the condition being if roundResult is equal to the player winning i.e. if (roundResult.slice(0,6) === "Player"). If true, 
+        increment variable playerScore by one. The else if condition is if (roundResult.slice(0, 8) === "Computer"); increment variable computerScore by one.
         
     3.6 Write an if statement that compares the value of playerScore and computerScore and declares the winner based on the higher value.
