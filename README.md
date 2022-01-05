@@ -24,6 +24,7 @@
 
  3. Write a function called game that will call the playRound function five times that keeps score and will declare the winner and loser at the end of the five 
     rounds.
+    
     3.1 Create a for loop that loops five times, calling the playRound function each time.
  
     3.2 Use the prompt function to get the user's input and store it in playerSelection and store the result of computerPlay in computerSelection.
