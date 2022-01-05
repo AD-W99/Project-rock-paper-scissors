@@ -1,6 +1,7 @@
 # Project-rock-paper-scissors
  The goal of this project is to emulate the classic kid's game rock paper scissors using JavaScript and HTML that is playable from the browser's console.
- Pseudo Code
+ 
+ Pseudo Code:
  1. Write a function called computerPlay that returns either rock, paper, or scissors randomly. This will serve as the computer opponent.
     1.1 Use Math.floor(Math.random()*10) to generate an integer from 0-9.
     1.2 Use an if else statement that tests if the generated integer is in range of 0-3, 4-6, or 7-9 and assign rock, paper, or scissors respectively.
