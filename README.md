@@ -6,9 +6,9 @@
  
     1.1 Use Math.floor(Math.random()*10) to generate an integer from 0-9.
 
-    2.2 Use an if else statement that tests if the generated integer is in range of 0-3, 4-6, or 7-9 and assign rock, paper, or scissors respectively.
+    1.2 Use an if else statement that tests if the generated integer is in range of 0-3, 4-6, or 7-9 and assign rock, paper, or scissors respectively.
 
-    3.3 Assign string return values based on the result of the previous if else statement.
+    1.3 Assign string return values based on the result of the previous if else statement.
 
  2. Write a function called playRound that serves as one round of the game and takes in two parameters (the playerSelection and the computerSelection) and returns 
     a string that declares the winner. Make sure the playerSelection parameter is case-insensitive.
